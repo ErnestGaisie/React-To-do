@@ -16,10 +16,14 @@ const Form = ({
 
   const submitTodoHandler = (e) => {
     e.preventDefault();
-    setTodos([
-      ...todos,
-      { text: inputText, completed: false, id: Math.random() },
-    ]);
+    if (inputText.length === 0) {
+    } else {
+      setTodos([
+        ...todos,
+        { text: inputText, completed: false, id: Math.random() },
+      ]);
+    }
+
     setInputText("");
   };
 
