@@ -100,7 +100,7 @@ const Form = ({
           type="submit"
           onClick={submitTodoHandler}
         >
-          {/* <i className="fas fa-plus-square"></i> */}
+          <i className="fas fa-plus-square"></i>
         </button>
 
         {/* <div className="select">
