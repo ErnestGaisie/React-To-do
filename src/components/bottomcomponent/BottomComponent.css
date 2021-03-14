@@ -1,0 +1,30 @@
+.selected {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+}
+
+.bottomlist {
+  display: flex;
+  list-style: none;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  padding: 15px 30px 15px 30px;
+  align-items: center;
+}
+
+.bottomlist > li {
+  border-radius: 3px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
